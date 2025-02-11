@@ -25,7 +25,7 @@ Initial conditions for the model variables in the fitting process are defined in
 
 The results from steps 1) and 2) are already included in the DATA/SURVEY_BEHAVIOR and DATA/EPIDEMIOLOGICAL subfolders, respectively.
 
-To avoid high computational costs of ABC procedures, we have provided pre-saved workspaces, that are "fit_threshold15.Rdata" (baseline), "fit_threshold15_noimp.Rdata" and "fit_threshold15_fixedimp.Rdata" (sensitivity analyses) that can be dowloaded from Zenodo, DOI: 10.5281/zenodo.14851476 . After downloading, fit_threshold15.Rdata (or similarly the other two sensitivity analyses workspaces), place it in the RESULTS folder. This file contains the output from the Approximate Bayesian Computation (ABC) fit.
+To avoid high computational costs of ABC procedures, we have provided pre-saved workspaces, that are "fit_threshold15.Rdata" (baseline), "fit_threshold15_noimp.Rdata" and "fit_threshold15_fixedimp.Rdata" (sensitivity analyses) that can be dowloaded from Zenodo, DOI: 10.5281/zenodo.14851476 (link: https://doi.org/10.5281/zenodo.14851476). After downloading, fit_threshold15.Rdata (or similarly the other two sensitivity analyses workspaces), place it in the RESULTS folder. This file contains the output from the Approximate Bayesian Computation (ABC) fit.
 You can skip step 3) and proceed directly to simulating scenarios using the provided workspace (see instructions below).
 
 ### Simulating
