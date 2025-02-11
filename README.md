@@ -43,6 +43,7 @@ To generate scenarios output files, run the following scripts:
 -	scenario2_behav.R to simulate eradication with behavioral changes
 -	incr_lambda_1.R to simulate scenario with HIV incidence increasing after 2022 with remission cure
 -	incr_lambda_2.R to simulate scenario with HIV incidence increasing after 2022 with eradication cure
+-	check_proportions_groups.R to simulate the model without cure and check if prevalence by risk group remains constant
 
 Computation for the ABC requires about 1 day on a MacBook Pro (Apple M1 Pro).
 Computation for each cure scenarios requires 3-4 hours.
@@ -52,9 +53,9 @@ To produce final figures, run the following scripts:
 
 -	plot_CDFcontactrates.R to plot CDF
 -	plot_ABC.R to plot the fit results
--	plot_ABC_noimo.R to plot the fit results relative to ABC_noimp.R
+-	plot_ABC_noimp.R to plot the fit results relative to ABC_noimp.R
 -	plot_ABC_fixed.R to plot the fit results relative to ABC_fixedimp.R
--	check_proportions_groups.R to check if prevalence by risk group remains constant
+-	plot_proportions_groups.R to plot the check results relative to check_proportions_groups.R
 -	plot_scenario1.R to plot remission dynamics
 -	plot_scenario1_noimp.R to plot remission dynamics simulated with scenario1_noimp.R
 -	plot_scenario1_fixedimp.R.R to plot remission dynamics simulated with scenario1_fixedimp.R
