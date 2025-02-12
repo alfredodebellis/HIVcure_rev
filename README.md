@@ -41,8 +41,8 @@ To generate scenarios output files, run the following scripts:
 -	scenario2_noimp.R to simulate eradication with no importation
 -	scenario2_fixedimp.R to simulate eradication with fixed proportion of undiagnosed to diagnosed imported individuals
 -	scenario2_behav.R to simulate eradication with behavioral changes
--	incr_lambda_1.R to simulate scenario with HIV incidence increasing after 2022 with remission cure
--	incr_lambda_2.R to simulate scenario with HIV incidence increasing after 2022 with eradication cure
+-	incr_lambda_1.R to simulate remission with HIV incidence increasing after 2022
+-	incr_lambda_2.R to simulate eradication with HIV incidence increasing after 2022
 -	check_proportions_groups.R to simulate the model without cure and check if prevalence by risk group remains constant
 
 Computation for the ABC requires about 1 day on a MacBook Pro (Apple M1 Pro).
