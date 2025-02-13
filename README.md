@@ -45,8 +45,8 @@ To generate scenarios output files, run the following scripts:
 -	incr_lambda_2.R to simulate eradication with HIV incidence increasing after 2022
 -	check_proportions_groups.R to simulate the model without cure and check if prevalence by risk group remains constant
 
-Computation for the ABC requires about 1 day on a MacBook Pro (Apple M1 Pro).
-Computation for each cure scenarios requires 3-4 hours.
+Computation for the ABC requires about 3-4 hours on a MacBook Pro (Apple M1 Pro).
+Computation for each cure scenarios requires 1-2 hours.
 
 ### Plotting 
 To produce final figures, run the following scripts:
