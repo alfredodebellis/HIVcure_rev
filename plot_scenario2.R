@@ -298,8 +298,12 @@ if(hcfile == "MAIN" & y_cure == 2026){
        labels = c("10", "50", "90"),
        srt = 0, adj = c(0.5, 0.5), xpd = TRUE, cex = cexlab)
   abline(h=seq(y0,y1+step,step), lty=3, col="gray72")
-  for(i in 1:n_sa){
+  for(i in 1:(n_sa-1))){
     rect(xleft=i-0.48, ybottom = 0, xright = i+0.48, ytop=bp_caa[i], col = colors2_reduct[i], border = "white")
+    individual_points <- cumulative_art_averted[2, i, ]
+    points(x = i + runif(length(individual_points), -0.47, 0.47),
+           y = individual_points,
+           pch = 21, bg = "magenta2", col = "magenta2", cex = 0.225)
     segments(x0 = i, y0 = bp_caa_lo[i], x1 = i, y1 = bp_caa_hi[i], col = adjustcolor("darkred",alpha.f = 1), lwd = 3)
   }
   mtext("b", side = 3, line = 0.5, adj = 0.0, cex = cexlab*rescmtext, font = 2)
