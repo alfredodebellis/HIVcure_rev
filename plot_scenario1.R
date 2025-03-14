@@ -312,6 +312,10 @@ if(hcfile == "MAIN" & y_cure == 2026){
   leg_sa <- rep("",n_sa)
   for(i in 1:n_sa){
     rect(xleft=i-0.48, ybottom = 0, xright = i+0.48, ytop=bp_caa[i], col = colors1[i], border = "white")
+    individual_points <- cumulative_art_averted[g, i, ]
+    points(x = i + runif(length(individual_points), -0.47, 0.47),
+           y = individual_points,
+           pch = 21, bg = "magenta2", col = "magenta2", cex = 0.225)
     segments(x0 = i, y0 = bp_caa_lo[i], x1 = i, y1 = bp_caa_hi[i], col = adjustcolor("darkred",alpha.f = 1), lwd = 3)
     leg_sa[i] <- 1 / failures[i]
   }
