@@ -2,7 +2,9 @@
 
 ## Overview 
 GitHub repository for the paper "Model-based evaluation of the impact of a potential HIV cure on HIV transmission dynamics". All details are described in the manuscript:
-> De Bellis, A., Willemsen, M., Guzzetta, G., van Sighem, A., Romijnders, K.A.G.J., Reiss, P., Schim van der Loeff, M.S., van de Wijgert, J.H.H.M., Nijhuis, M., Kretzschmar, M., & Rozhnova, G. (2024). Model-based evaluation of the impact of a potential HIV cure on HIV transmission dynamics in a low-incidence, high ART setting. 
+> De Bellis, A., Willemsen, M., Guzzetta, G., van Sighem, A., Romijnders, K.A.G.J., Reiss, P., Schim van der Loeff, M.S., van de Wijgert, J.H.H.M., Nijhuis, M., Kretzschmar, M., & Rozhnova, G. (2024). Model-based evaluation of the impact of a potential HIV cure on HIV transmission dynamics.
+
+This repository is linked to Zenodo and can be cited using the following DOI: 10.5281/zenodo.15031608
 
 ## Survey
 The folder [SURVEY]("SURVEY") contains the original questions asked within survey on sexual behavior data.
