@@ -87,4 +87,4 @@ No non-standard hardware is required.
 Other than installation of these required software and packages, no installation is needed.
 
 ## Funding  
-The authors gratefully acknowledge funding by the Aidsfonds Netherlands, grant number P53902, and funding by Aidsfonds & NWO, the SPIRAL project KICH2.V4P.AF23.001.
+The authors gratefully acknowledge funding by the Aidsfonds Netherlands, grant number P-53902, awarded to G.R., and funding by Aidsfonds \& NWO, the SPIRAL project KICH2.V4P.AF23.001, awarded to G.R. and M.N. The survey data collection was funded by the Aidsfonds Netherlands, grant number P-52901, awarded to G.R.
